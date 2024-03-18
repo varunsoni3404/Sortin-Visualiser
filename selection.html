@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Selection Sort</title>
+</head>
+
+<body>
+  <h1>Selection Sort</h1>
+  <div id="container"></div>
+  <hr>
+  <div>
+    <button onclick="newarray()">New</button>
+    <button onclick="play()">Play</button>
+    <a href="/">Go home</a>
+  </div>
+  <div class="slider-container">
+    <input type="range" min="5" max="100" value="20" class="slider" id="sizeSlider">
+    <p>Array Size: <span id="sizeValue">20</span></p>
+  </div>
+  <div class="slider-container">
+    <input type="range" min="1" max="1000" value="500" class="slider" id="speedSlider">
+    <p>Speed: <span id="speedValue">500</span> ms</p>
+  </div>
+  <script src="selection.js"></script>
+</body>
+
+</html>

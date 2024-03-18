@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="stylesheet" href="style.css" />
+  <title>Sorting</title>
+</head>
+
+
+<body>
+  <h1>Bubble Sort</h1>
+  <div id="container"></div>
+  <hr />
+  <div>
+    <button onclick="newarray()">New</button>
+    <button onclick="play()">Play</button>
+    <button>
+      <a href="/">Go home</a>
+    </button>
+  </div>
+  <div class="slider-container">
+    <input type="range" min="0" max="100" value="50" class="slider" id="mySlider">
+    <p>Value: <span id="sliderValue">50</span></p>
+  </div>
+  <div class="slider-container">
+    <input type="range" min="1" max="1000" value="500" class="slider" id="speedSlider">
+    <p>Speed: <span id="speedValue">500</span> ms</p>
+  </div>
+
+  <script src="bubble.js"></script>
+</body>
+
+</html>
